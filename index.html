@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>To Do</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <script defer src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="todo-content">
+      <section class="todo-list">
+        <form class="add-form" id="todoAdd">
+          <input class="input add-input" type="text" placeholder="Add new task...">
+          <button type="submit" class="btn btn-todo-add">add</button>
+        </form>
+      </section>
+      <section class="todo-list">
+        <div class="todo-list-header">
+          <h2 class="todo-list-title">
+            Tasks list
+          </h2>
+          <button class="btn btn-clear-list">clear list</button>
+        </div>
+        <form class="todo-list-search-form">
+          <input type="search" id="todoSearch" class="input todo-list-search" placeholder="Search for task...">
+        </form>
+        <div id="todoList">
+          <!-- tasks wil be added here -->
+        </div>
+      </section>
+    </div>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+  </body>
+</html>
